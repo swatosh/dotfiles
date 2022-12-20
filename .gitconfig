@@ -1,10 +1,13 @@
+# This is Git's per-user configuration file.
 [user]
-    name = Eli Anderson
-    email = elianderson03@gmail.com
+# Please adapt and uncomment the following lines:
+  name = Joe Swatosh
+  email = joeswatosh@philzcoffee.com
+
 [apply]
   whitespace = fix
 [core]
-  excludesfile = ~/.gitignore
+  excludesfile = ~/dotfiles/.gitignore_global
   attributesfile = ~/.gitattributes
   whitespace = fix,space-before-tab,tab-in-indent,trailing-space
 	editor = vim
@@ -50,3 +53,5 @@
   br = branch
 [push]
 	default = matching
+[init]
+  defaultBranch = main
