@@ -26,6 +26,8 @@ function! init#after() abort
   let g:spacevim_enable_statusline_bfpath = 1
   let g:go_fmt_fail_silently = 1
 
+  let &colorcolumn=join(range(120,999),",")
+
   if exists('$TMUX')
     let &t_EI="\<Esc>[2 q"
     let &t_SI="\<Esc>[6 q"
