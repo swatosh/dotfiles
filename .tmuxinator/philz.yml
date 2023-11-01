@@ -15,7 +15,7 @@ windows:
   - philz_rulez: cd philz_rubocop_rulez
   - ab_ns_src: cd airbyte/airbyte-integrations/connectors/source-netsuite && python -m venv .venv
   # - airbyte: cd airbyte && python -m venv .venv
-  - ether: cd ether; tail -f storage/logs/laravel.log
+  - ether: cd ether; tail -f ~/.config/valet/Log/* storage/logs/laravel.log
   - spree:
       layout: tiled
       panes:
