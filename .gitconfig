@@ -46,6 +46,7 @@
   rb = rebase
   ps = push
   st = status
+  sw = switch
   m = merge --no-ff
   hist = log --pretty=format:\"%h %ad | %s%d [%an]\" --graph --date=short
   type = cat-file -t
