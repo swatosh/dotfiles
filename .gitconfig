@@ -2,12 +2,12 @@
 [user]
 # Please adapt and uncomment the following lines:
   name = Joe Swatosh
-  email = joeswatosh@philzcoffee.com
+  email = jswatosh@bspot.com
 
 [apply]
   whitespace = fix
 [core]
-  excludesfile = ~/dotfiles/.gitignore_global
+  excludesfile = ~/.dotfiles/.gitignore_global
   attributesfile = ~/.gitattributes
   whitespace = fix,space-before-tab,tab-in-indent,trailing-space
 	editor = vim
