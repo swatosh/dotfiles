@@ -23,3 +23,8 @@ return {
     end,
   },
 }
+
+-- Remember this requires ripgrep and fd!
+--
+-- `brew install ripgrep`
+-- `brew install fd`
