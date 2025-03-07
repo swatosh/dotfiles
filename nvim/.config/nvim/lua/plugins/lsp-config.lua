@@ -41,7 +41,7 @@ return {
   },
 }
 
--- To make the LSPs aren't added automatically!
+-- LSPs aren't added automatically! To make things work do some of this:
 --
 -- :Mason to see an interface, search for the right processor and press i to auto_install
 --
