@@ -9,7 +9,8 @@ read -p "Do you want to proceed? (Y/N) " -n 1
 echo
 echo
 
-files=(".SpaceVim.d" ".tmuxinator" ".tmuxinator.zsh" ".gitconfig" ".tmux.conf")
+# files=(".SpaceVim.d" ".tmuxinator" ".tmuxinator.zsh" ".gitconfig" ".tmux.conf")
+files=(".gitconfig" ".tmux.conf")
 
 if [[ $REPLY =~ ^[Yy]$ ]]; then
   for file in "${files[@]}"; do
