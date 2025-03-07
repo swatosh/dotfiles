@@ -21,3 +21,7 @@ return {
 -- :MasonInstall stylua
 -- :MasonInstall erb_lint
 -- :MasonInstall rubocop
+--
+--
+-- Oh, and ruby needs to be more current than the default version on MacOS. I used rbenv,
+-- and it needs to be setup  in the .zshrc
