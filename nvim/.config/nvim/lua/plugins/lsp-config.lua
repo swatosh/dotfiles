@@ -20,15 +20,15 @@ return {
       local capabilities = require('cmp_nvim_lsp').default_capabilities()
 
       local lspconfig = require("lspconfig")
-      lspconfig.ts_ls.setup({
-        capabilities = capabilities
-      })
+      -- lspconfig.ts_ls.setup({
+      --   capabilities = capabilities
+      -- })
       lspconfig.solargraph.setup({
         capabilities = capabilities
       })
-      lspconfig.html.setup({
-        capabilities = capabilities
-      })
+      -- lspconfig.html.setup({
+      --   capabilities = capabilities
+      -- })
       lspconfig.lua_ls.setup({
         capabilities = capabilities
       })
@@ -40,3 +40,11 @@ return {
     end,
   },
 }
+
+-- To make the LSPs aren't added automatically!
+--
+-- :Mason to see an interface, search for the right processor and press i to auto_install
+--
+-- -- OR --
+--
+-- :MasonInstall <lsp engine name>

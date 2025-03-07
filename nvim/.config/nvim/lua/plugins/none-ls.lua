@@ -15,3 +15,9 @@ return {
     vim.keymap.set("n", "<leader>gf", vim.lsp.buf.format, {})
   end,
 }
+
+-- These need "LSP" (Mason) installs as well!
+--
+-- :MasonInstall stylua
+-- :MasonInstall erb_lint
+-- :MasonInstall rubocop
