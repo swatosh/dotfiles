@@ -1,4 +1,4 @@
-The Dotfiles of Eli Anderson, a Ruby Developer in the sunny PNW
+The Dotfiles of Joe Swatosh, a Ruby Developer in the sunny PNW (stolen from Eli Anderson)
 
 Clone this repo and run
 
@@ -9,15 +9,18 @@ Clone this repo and run
 
 Some random notes to be organized later:
 
-When using spacevim don't forget nerd fonts
 https://www.nerdfonts.com/font-downloads
 
 ```terminal
-brew tap homebrew/cask-fonts
-brew install --cask font-<nerd font name>-nerd-font
+brew install font-fira-code-nerd-font
 ```
 
 
 Install fzf and run the command line helpers - its sweet
 
 https://github.com/junegunn/fzf#using-homebrew
+
+___
+## This isn't the complete setup! see also
+ - https://github.com/swatosh/prezto
+ - https://github.com/swatosh/neovim-for-newbs (since the switch from SpaceVim)
