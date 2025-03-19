@@ -18,3 +18,8 @@ vim.keymap.set('n', ',m', ':wa!<CR>')
 vim.keymap.set('n', '<leader>h', ':nohlsearch<CR>')
 vim.wo.number = true
 
+-- trim whitspace
+vim.api.nvim_create_autocmd({ "BufWritePre" }, {
+  pattern = { "*" },
+  command = [[%s/\s\+$//e]],
+})
