@@ -10,7 +10,7 @@ echo
 echo
 
 # files=(".SpaceVim.d" ".tmuxinator" ".tmuxinator.zsh" ".gitconfig" ".tmux.conf")
-files=(".gitconfig" ".tmux.conf")
+files=(".tmuxinator" ".tmuxinator.zsh" ".gitconfig" ".tmux.conf")
 
 if [[ $REPLY =~ ^[Yy]$ ]]; then
   for file in "${files[@]}"; do
