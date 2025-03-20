@@ -1,0 +1,11 @@
+# ~/.tmuxinator/bspot.yml
+
+name: rgs-token
+root: ~/Projects
+# pre_window: nvm use
+
+pre:
+
+windows:
+  - vim: v rgs-token/
+  - rgs: cd rgs-token/
