@@ -23,3 +23,6 @@ vim.api.nvim_create_autocmd({ "BufWritePre" }, {
   pattern = { "*" },
   command = [[%s/\s\+$//e]],
 })
+
+--for now, because I want this, but I can't find a better place for it...yet
+vim.cmd("let test#ruby#rspec#executable = 'bin/dcr bundle exec rspec'")
