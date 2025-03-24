@@ -1,11 +1,42 @@
 # ~/.tmuxinator/bspot.yml
 
-name: rgs-token
-root: ~/Projects
+name: bspot
 # pre_window: nvm use
 
-pre:
+# pre:
 
 windows:
-  - vim: v rgs-token/
-  - rgs: cd rgs-token/
+- rgs-vim:
+    root: ~/Projects/rgs-token
+    panes:
+      - nvim
+- rgs-cl:
+    root: ~/Projects/rgs-token
+    panes:
+      -
+- frgs-vim:
+    root: ~/Projects/fusion-remote-gaming-server
+    panes:
+      - nvim
+- frgs-cl:
+    root: ~/Projects/fusion-remote-gaming-server
+    panes:
+      -
+
+
+
+
+- nvim-config:
+    root: ~/.config/nvim
+    layout: even-horizontal
+    panes:
+      - editor: nvim
+      - cl:
+
+- dotfiles-config:
+    root: ~/.dotfiles
+    layout: even-horizontal
+    panes:
+      - editor: nvim
+      - cl:
+
