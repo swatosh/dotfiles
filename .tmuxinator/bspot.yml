@@ -40,3 +40,10 @@ windows:
       - editor: nvim
       - cl:
 
+- zpretzo-config:
+    root: ~/.zprezto
+    layout: even-horizontal
+    panes:
+      - editor: nvim
+      - cl:
+
