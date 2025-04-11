@@ -4,3 +4,4 @@ tags*
 node_modules
 .DS_Store
 .envrc
+config/initializers/_swatosh_debug_aids.rb
