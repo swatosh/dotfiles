@@ -48,7 +48,7 @@
   st = status
   sw = switch
   m = merge --no-ff
-  hist = log --pretty=format:\"%h %ad | %s%d [%an]\" --graph --date=short
+  hist = log --pretty=tformat:\"%h %ad | %s%d [%an]\" --graph --date=short
   type = cat-file -t
   dump = cat-file -p
   br = branch
