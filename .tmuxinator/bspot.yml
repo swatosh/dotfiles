@@ -23,27 +23,3 @@ windows:
     panes:
       -
 
-
-
-
-- nvim-config:
-    root: ~/.config/nvim
-    layout: even-horizontal
-    panes:
-      - editor: nvim
-      - cl:
-
-- dotfiles-config:
-    root: ~/.dotfiles
-    layout: even-horizontal
-    panes:
-      - editor: nvim
-      - cl:
-
-- zpretzo-config:
-    root: ~/.zprezto
-    layout: even-horizontal
-    panes:
-      - editor: nvim
-      - cl:
-

@@ -1,0 +1,29 @@
+# ~/.tmuxinator/dev-env.yml
+
+name: dev-env
+# pre_window: nvm use
+
+# pre:
+
+windows:
+- nvim-config:
+    root: ~/.config/nvim
+    layout: even-horizontal
+    panes:
+      - editor: nvim
+      - cl:
+
+- dotfiles-config:
+    root: ~/.dotfiles
+    layout: even-horizontal
+    panes:
+      - editor: nvim
+      - cl:
+
+- zpretzo-config:
+    root: ~/.zprezto
+    layout: even-horizontal
+    panes:
+      - editor: nvim
+      - cl:
+
