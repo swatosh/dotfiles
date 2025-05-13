@@ -20,6 +20,8 @@ Install fzf and run the command line helpers - its sweet
 
 https://github.com/junegunn/fzf#using-homebrew
 
+REMEMBER: DO NOT USE brew to install tmuxinator! Just install it as a gem to prevent nasty path behavior!!
+
 ___
 ## This isn't the complete setup! see also
  - https://github.com/swatosh/prezto
