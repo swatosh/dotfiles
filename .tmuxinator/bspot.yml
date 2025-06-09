@@ -22,4 +22,12 @@ windows:
     root: ~/Projects/fusion-remote-gaming-server
     panes:
       -
+- wip-vim:
+    root: ~/Projects/
+    panes:
+      - nvim
+- wip-cl:
+    root: ~/Projects/
+    panes:
+      -
 
