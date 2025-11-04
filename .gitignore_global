@@ -5,3 +5,6 @@ node_modules
 .DS_Store
 .envrc
 config/initializers/_swatosh_debug_aids.rb
+x.x
+t.t
+dump.rdb
