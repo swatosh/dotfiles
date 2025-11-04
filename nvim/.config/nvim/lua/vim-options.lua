@@ -15,6 +15,7 @@ vim.keymap.set('n', '<c-h>', ':wincmd h<CR>')
 vim.keymap.set('n', '<c-l>', ':wincmd l<CR>')
 
 vim.keymap.set('n', ',m', ':wa!<CR>')
+vim.keymap.set('i', 'jk', '<Esc>')
 
 vim.keymap.set('n', '<leader>h', ':nohlsearch<CR>')
 vim.wo.number = true
