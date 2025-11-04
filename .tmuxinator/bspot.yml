@@ -7,27 +7,38 @@ name: bspot
 
 windows:
 - rgs-vim:
-    root: ~/Projects/rgs-token
+    root: ~/Projects/fusion-remote-gaming-server
     panes:
       - nvim
 - rgs-cl:
-    root: ~/Projects/rgs-token
+    root: ~/Projects/fusion-remote-gaming-server
     panes:
       -
-- frgs-vim:
-    root: ~/Projects/fusion-remote-gaming-server
+- fplayer-vim:
+    root: ~/Projects/fusion-player
     panes:
       - nvim
-- frgs-cl:
-    root: ~/Projects/fusion-remote-gaming-server
+- fplayer-cl:
+    root: ~/Projects/fusion-player
+    panes:
+      -
+- fstore-vim:
+    root: ~/Projects/fusion-store
+    panes:
+      - nvim
+- fstore-cl:
+    root: ~/Projects/fusion-store
     panes:
       -
 - wip-vim:
-    root: ~/Projects/
+    root: ~/Projects/fusion-player
     panes:
       - nvim
 - wip-cl:
-    root: ~/Projects/
+    root: ~/Projects/fusion-player
     panes:
       -
-
+- projects:
+    root: ~/Projects
+    panes:
+      -
