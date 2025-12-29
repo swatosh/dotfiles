@@ -14,31 +14,31 @@ windows:
     root: ~/Projects/fusion-remote-gaming-server
     panes:
       -
-- fplayer-vim:
+- fp-vim:
     root: ~/Projects/fusion-player
     panes:
       - nvim
-- fplayer-cl:
+- fp-cl:
     root: ~/Projects/fusion-player
     panes:
       -
-- fstore-vim:
+- fs-vim:
     root: ~/Projects/fusion-store
     panes:
       - nvim
-- fstore-cl:
+- fs-cl:
     root: ~/Projects/fusion-store
     panes:
       -
-- wip-vim:
-    root: ~/Projects/fusion-player
+- fdr-vim:
+    root: ~/Projects/fusion-delayed_reveal
     panes:
       - nvim
-- wip-cl:
-    root: ~/Projects/fusion-player
+- fdr-cl:
+    root: ~/Projects/fusion-delayed_reveal
     panes:
       -
-- projects:
+- wip:
     root: ~/Projects
     panes:
       -
