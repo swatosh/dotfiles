@@ -8,3 +8,4 @@ node_modules
 x.x
 t.t
 dump.rdb
+*.patch
