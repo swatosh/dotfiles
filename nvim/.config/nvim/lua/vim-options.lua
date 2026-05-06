@@ -19,6 +19,7 @@ vim.keymap.set('i', 'jk', '<Esc>')
 
 vim.keymap.set('n', '<leader>h', ':nohlsearch<CR>')
 vim.wo.number = true
+vim.wo.relativenumber = true
 
 -- trim whitspace
 vim.api.nvim_create_autocmd({ "BufWritePre" }, {
