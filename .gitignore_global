@@ -9,3 +9,5 @@ x.x
 t.t
 dump.rdb
 *.patch
+
+**/.claude/settings.local.json
