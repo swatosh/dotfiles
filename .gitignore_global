@@ -9,6 +9,6 @@ x.x
 t.t
 dump.rdb
 *.patch
-jrs-precheck
+jrs*
 
 **/.claude/settings.local.json
