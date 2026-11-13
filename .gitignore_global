@@ -10,5 +10,6 @@ t.t
 dump.rdb
 *.patch
 jrs*
+.claude
 
 **/.claude/settings.local.json
