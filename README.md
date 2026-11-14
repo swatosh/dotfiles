@@ -6,6 +6,7 @@ Clone this repo and run
 <path to git dir>/link.sh
 ```
 
+Moving from using the "by hand" linking in `link.sh` to using `stow`
 
 Some random notes to be organized later:
 
