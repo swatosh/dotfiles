@@ -7,7 +7,7 @@
 [apply]
   whitespace = fix
 [core]
-  excludesfile = ~/.dotfiles/.gitignore_global
+  excludesfile = ~/.config/git/ignore
   attributesfile = ~/.gitattributes
   whitespace = fix,space-before-tab,tab-in-indent,trailing-space
 	editor = vim
