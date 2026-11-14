@@ -1,12 +1,13 @@
 The Dotfiles of Joe Swatosh, a Ruby Developer in the sunny PNW (stolen from Eli Anderson)
 
-Clone this repo and run
+Clone this repo including submodules! `git clone --recurse-submodules <url>` and run
 
 ```terminal
-<path to git dir>/link.sh
+stow -S git
+stow -S tmux
+stow -S tmuxinator
 ```
 
-Moving from using the "by hand" linking in `link.sh` to using `stow`
 
 Some random notes to be organized later:
 
